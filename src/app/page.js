@@ -1,10 +1,13 @@
-import Image from 'next/image';
-import styles from './page.module.css';
+'use client';
+
+import ReactLenis from '@studio-freight/react-lenis';
 
 export default function Home() {
   return (
-    <div className="home">
-      <h1>Kaelon</h1>
-    </div>
+    <ReactLenis root>
+      <div className="home">
+        <h1>Kaelon</h1>
+      </div>
+    </ReactLenis>
   );
 }
